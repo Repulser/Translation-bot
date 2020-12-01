@@ -14,7 +14,7 @@ def strip(input):
 class TranslateBot(discord.Client):
     def __init__(self, **options):
         super().__init__(**options)
-        self.translator = Translator()
+        self.translator = Translator(service_urls=['translate.googleapis.com'])
 
     async def on_ready(self):
         print('Logged in as')
