@@ -1,0 +1,1 @@
+git+https://github.com/alainrouillon/py-googletrans@feature/enhance-use-of-direct-api
